@@ -1,6 +1,8 @@
 module github.com/CmdrSharp/custom-otelcol-extensions
 
-go 1.21
+go 1.21.8
+
+toolchain go1.22.2
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector v0.97.0
@@ -54,7 +56,6 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/awsproxy v0.97.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension v0.97.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/bearertokenauthextension v0.97.0
-	github.com/CmdrSharp/custom-otelcol-extensions/headerssetterextension v0.97.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension v0.97.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling v0.97.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension v0.97.0
@@ -232,6 +233,7 @@ require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v1.2.1 // indirect
 	github.com/ClickHouse/ch-go v0.61.5 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.23.0 // indirect
+	github.com/CmdrSharp/custom-otelcol-extensions/headerssetterextension v0.0.0-20240407111016-ad5d28340e0d // indirect
 	github.com/Code-Hex/go-generics-cache v1.3.1 // indirect
 	github.com/DataDog/agent-payload/v5 v5.0.104 // indirect
 	github.com/DataDog/datadog-agent/pkg/obfuscate v0.52.1-0.20240321095122-a3c5dbb936ae // indirect
